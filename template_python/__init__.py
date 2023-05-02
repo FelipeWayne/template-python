@@ -2,7 +2,6 @@
 
 from dynaconf import settings as env
 
-
 # Carrega .env que define o ambiente Ex: development, production
 
 # log.debug(ENV['tt'])
