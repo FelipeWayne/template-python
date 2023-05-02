@@ -1,0 +1,8 @@
+[default]
+number = 42
+
+[development]
+number = 1234
+
+[production]
+number = 5678

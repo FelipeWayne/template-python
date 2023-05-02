@@ -313,6 +313,8 @@ celerybeat.pid
 
 # Environments
 .env
+.env.development
+.env.production
 .venv
 env/
 venv/
@@ -381,3 +383,6 @@ pyrightconfig.json
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,python,pycharm,jetbrains
+
+# Ignore dynaconf secret files
+.secrets.*
